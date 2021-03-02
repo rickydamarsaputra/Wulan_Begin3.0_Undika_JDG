@@ -31,6 +31,8 @@ public class App {
         } else {
             message = "Coba masukkan data yang benar";
         }
+
         System.out.println("Memiliki status: " + message);
+        scanner.close();
     }
 }
