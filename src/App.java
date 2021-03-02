@@ -13,7 +13,7 @@ public class App {
         Double tinggibadan = scanner.nextDouble();
 
         double angkaBMI = beratBadan / ((Math.pow(tinggibadan / 100, 2)));
-        System.out.print("Angka BMI: " + angkaBMI);
+        System.out.println("Angka BMI: " + angkaBMI);
 
         System.out.println("===== Hasil Perhitungan BMI =====");
         System.out.println("Pasien dengan nama: " + nama);
@@ -31,8 +31,6 @@ public class App {
         } else {
             message = "Coba masukkan data yang benar";
         }
-
-        System.out.println("Total BMI: " + angkaBMI);
         System.out.println("Memiliki status: " + message);
     }
 }
